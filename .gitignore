@@ -3,3 +3,5 @@
 /.lsp
 /.clj-kondo
 .nrepl-port
+.nightlight.edn
+
