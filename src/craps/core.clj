@@ -17,14 +17,12 @@
 (defn- snake-eyes?
   "Is a throw of 2 dice snake-eyes (two ones)?"
   [[die-1 die-2]]
-  (= 2
-     (+ die-1 die-2)))
+  (= 1 die-1 die-2))
 
 (defn- boxcars?
   "Is a throw of 2 dice boxcars (two sixes)?"
   [[die-1 die-2]]
-  (= 12
-     (+ die-1 die-2)))
+  (= 6 die-1 die-2))
 
 (defn- instant-win?
   "Is a throw of two dice an instant win?"
